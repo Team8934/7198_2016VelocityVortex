@@ -78,6 +78,7 @@ public class Testbot extends LinearOpMode {
         // run until the end of the match (driver presses STOP)
         while (opModeIsActive()) {
             touch = robot.touchSensor.isPressed();
+
             xAccel = robot.accel.getAcceleration().xAccel;
             yAccel = robot.accel.getAcceleration().yAccel;
             zAccel = robot.accel.getAcceleration().zAccel;
