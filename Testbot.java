@@ -95,6 +95,7 @@ public class Testbot extends LinearOpMode {
             telemetry.addData("xAccel", xAccel);
             telemetry.addData("yAccel", yAccel);
             telemetry.addData("zAccel", zAccel);
+
             telemetry.update();
 
             idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
